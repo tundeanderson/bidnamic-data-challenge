@@ -1,3 +1,20 @@
+Thank you for inviting me to take your below challenge. 
+
+I have tried to keep the python code as simple as possible utilising SQL servers' ability to automatically cast to SQL types from strings. Given more time it might have been interesting to investigate if there was a performance hit for this - I suspect it may be faster to limit how much of this SQL has to do, but it would make for slightly more complex code. If the performance of this task was a major factor then I would have probably avoided this.
+
+It has been written with Python 3.7.6 and SQL Server 2017 (linux).
+
+Steps to run:
+
+- Run SQL DB creation script
+- Run SQL table creation scripts
+- Run SQL SP creation scripts
+- Run SQL user creation script
+- In python: pip install -r requirements.txt
+- Edit .env file update db name, server address etc
+- Extract extracts\extracts.rar (GitHub file size limit)
+- python main.py (currently runs for all 3 extracts, edit if you want to run 1 at a time)
+
 <img src="logo.png" alt="drawing" width="500"/>
 
 ## Python Data Engineering Challenge
