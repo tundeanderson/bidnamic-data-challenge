@@ -12,7 +12,6 @@ Steps to run:
 - Run SQL user creation script
 - In python: pip install -r requirements.txt
 - Edit .env file update db name, server address etc
-- Extract extracts\extracts.rar (GitHub file size limit)
 - python main.py (currently runs for all 3 extracts, edit if you want to run 1 at a time)
 
 <img src="logo.png" alt="drawing" width="500"/>
